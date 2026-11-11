@@ -1,0 +1,16 @@
+[Unit]
+Description=Slurm campaign controller
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=simple
+User=REPLACE_APPROVED_SERVICE_USER
+WorkingDirectory=/REPLACE/slurm_array_agent
+ExecStart=/REPLACE/venv/bin/python -m slurm_controller run /REPLACE/persistent/campaign
+Restart=on-failure
+RestartSec=30
+TimeoutStopSec=60
+UMask=0077
+NoNewPrivileges=true
+[Install]
+WantedBy=multi-user.target

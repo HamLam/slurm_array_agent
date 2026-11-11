@@ -1,0 +1,26 @@
+test_content_validation_rejects_same_size_corruption (test_controller.AdapterTests.test_content_validation_rejects_same_size_corruption) ... ok
+test_live_preflight_denies_unconfigured_cluster (test_controller.AdapterTests.test_live_preflight_denies_unconfigured_cluster) ... ok
+test_reasoning_schema_and_budget (test_controller.AdapterTests.test_reasoning_schema_and_budget) ... ok
+test_reconciliation_deduplicates_parent (test_controller.AdapterTests.test_reconciliation_deduplicates_parent) ... ok
+test_slurm_parser_accounting_and_missing_queue (test_controller.AdapterTests.test_slurm_parser_accounting_and_missing_queue) ... ok
+test_zero_throttle_rejected (test_controller.AdapterTests.test_zero_throttle_rejected) ... ok
+test_accounting_absence_is_not_failure (test_controller.CampaignTests.test_accounting_absence_is_not_failure) ... ok
+test_adaptive_increase_decrease (test_controller.CampaignTests.test_adaptive_increase_decrease) ... ok
+test_attempt_ceiling (test_controller.CampaignTests.test_attempt_ceiling) ... ok
+test_budget_exhaustion (test_controller.CampaignTests.test_budget_exhaustion) ... ok
+test_cancel_and_stop (test_controller.CampaignTests.test_cancel_and_stop) ... ok
+test_circuit_breaker (test_controller.CampaignTests.test_circuit_breaker) ... ok
+test_end_to_end (test_controller.CampaignTests.test_end_to_end) ... ok
+test_incomplete_output_retry (test_controller.CampaignTests.test_incomplete_output_retry) ... ok
+test_lock_and_manifest_immutability (test_controller.CampaignTests.test_lock_and_manifest_immutability) ... ok
+test_lost_submission_restart (test_controller.CampaignTests.test_lost_submission_restart) ... ok
+test_model_unavailable_and_policy_validation (test_controller.CampaignTests.test_model_unavailable_and_policy_validation) ... ok
+test_no_blind_resubmit (test_controller.CampaignTests.test_no_blind_resubmit) ... ok
+test_pause (test_controller.CampaignTests.test_pause) ... ok
+test_service_outage_backoff (test_controller.CampaignTests.test_service_outage_backoff) ... ok
+test_transient_retry_and_shared_limits (test_controller.CampaignTests.test_transient_retry_and_shared_limits) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 2.483s
+
+OK

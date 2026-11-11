@@ -1,0 +1,7 @@
+{
+  "inputs": "/tmp/campaign-inputs",
+  "output": "/tmp/campaign-outputs",
+  "command": ["/bin/cp", "{input}", "{output}"],
+  "mode": "fake",
+  "policy": {"batch_size": 10, "wave_tasks": 10, "poll_seconds": 2, "retry_seconds": 2}
+}

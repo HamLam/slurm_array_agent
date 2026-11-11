@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "entries": 1000000,
+  "insertion_seconds": 49.406773483991856,
+  "query_seconds": 0.060406297008739784,
+  "indexed_queries": 1000,
+  "query_plan": [
+    [
+      2,
+      0,
+      0,
+      "SEARCH TABLE units USING COVERING INDEX unit_state (state=? AND task=?)"
+    ]
+  ],
+  "peak_rss_kib": 26680,
+  "inherited_ru_maxrss_kib": 498316,
+  "memory_method": "Linux /proc/self/status VmHWM; getrusage includes launcher high-water mark on this host",
+  "database_bytes": 227856384,
+  "batch_entries": 1000,
+  "python": "3.11.13 (main, Apr 28 2026, 13:06:52) [GCC 8.5.0 20210514 (Red Hat 8.5.0-28)]",
+  "limitation": "Synthetic database only; no filesystem discovery, Slurm, or scientific throughput measured"
+}

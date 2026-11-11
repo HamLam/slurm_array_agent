@@ -1,0 +1,21 @@
+{
+  "inputs": "/REPLACE/shared/input",
+  "output": "/REPLACE/shared/output",
+  "command": ["/bin/cp", "{input}", "{output}"],
+  "mode": "slurm",
+  "cluster": {
+    "account": "REPLACE",
+    "partition": "REPLACE",
+    "qos": "REPLACE",
+    "verified_limits": false,
+    "execution_authorized": false
+  },
+  "policy": {
+    "batch_size": 2, "wave_tasks": 2,
+    "concurrency": 1, "max_concurrency": 2,
+    "max_attempts": 2, "max_submissions": 3,
+    "cpus": 1, "memory_mb": 512, "task_seconds": 120,
+    "max_cpu_seconds": 720, "duration_seconds": 1800,
+    "poll_seconds": 30, "accounting_grace": 300
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "simulated": true,
+  "steps": 9,
+  "status": {
+    "state": "complete",
+    "total": 24,
+    "units": {
+      "done": 24
+    },
+    "submissions": 3,
+    "reserved_cpu_seconds": 5400,
+    "throttle": 2,
+    "output": "/tmp/slurm-offline-1fq55rlq/outputs",
+    "model_calls": 1
+  },
+  "caveat": "Temporary local outputs removed after demonstration; no Slurm commands invoked",
+  "audit_counts": {
+    "control": 1,
+    "finished": 1,
+    "observation": 6,
+    "prepared": 1,
+    "reasoning_unavailable": 1,
+    "service_error": 1,
+    "submission_intent": 3,
+    "submitted": 2,
+    "terminal": 9,
+    "throughput": 6,
+    "validated": 1
+  },
+  "max_attempts": 2
+}

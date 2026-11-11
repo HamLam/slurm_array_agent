@@ -1,0 +1,8 @@
+For you, I recommend starting with your existing Codex CLI and GPT-6 Sol. Keep the Python controller independent of the model so we can add a local LLM later without redesigning job management.
+
+There are two separate decisions:
+- Building the controller: Use Codex CLI to write and test the Python software, regardless of which model ultimately supports it.
+- Operating the controller: Use ordinary Python code continuously, calling GPT-6 Sol only for planning or unfamiliar failures.
+
+
+
